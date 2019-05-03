@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+  web:
+    container_name: elprice_web
+    volumes:
+      - .:/app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - webnet
+    depends_on:
+      - db
+  db:
+    container_name: elprice_db
+    image: postgres:9.5.15
+    ports:
+      - "15432:5432"
+    networks:
+      - webnet
+    environment:
+      POSTGRES_USER: elprice
+      POSTGRES_PASSWORD: 123db4
+      POSTGRES_DB: elprice
+networks:
+  webnet:

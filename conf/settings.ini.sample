@@ -1,0 +1,8 @@
+[settings]
+DEBUG=True
+TEMPLATE_DEBUG=%(DEBUG)s
+SECRET_KEY=b0izsm!qw3(79r$u67sh-hx*t-d)518+ambv#b48l$$a+50q=a
+DB_NAME=elprice
+DB_USER=elprice
+DB_PASSWORD=123db4
+DB_HOST=db

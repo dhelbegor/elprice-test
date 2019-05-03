@@ -1,0 +1,107 @@
+[
+{
+  "model": "products.departament",
+  "pk": 1,
+  "fields": {
+    "created": "2019-05-02T00:05:40.890Z",
+    "updated": "2019-05-02T00:05:43.382Z",
+    "name": "CELULARES E SMARTFONE"
+  }
+},
+{
+  "model": "products.departament",
+  "pk": 2,
+  "fields": {
+    "created": "2019-05-02T00:05:51.877Z",
+    "updated": "2019-05-02T00:05:51.877Z",
+    "name": "TV"
+  }
+},
+{
+  "model": "products.departament",
+  "pk": 3,
+  "fields": {
+    "created": "2019-05-02T00:06:01.954Z",
+    "updated": "2019-05-02T00:06:01.954Z",
+    "name": "GAMES"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "created": "2019-05-02T00:06:16.973Z",
+    "updated": "2019-05-02T00:12:52.968Z",
+    "name": "SMARTFONE"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "created": "2019-05-02T00:06:28.510Z",
+    "updated": "2019-05-02T00:06:28.510Z",
+    "name": "4K"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "created": "2019-05-02T00:06:36.265Z",
+    "updated": "2019-05-02T00:06:36.265Z",
+    "name": "LED"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "created": "2019-05-02T00:06:49.889Z",
+    "updated": "2019-05-02T00:08:47.877Z",
+    "name": "ACAO"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "slug": "smartphone-samsung-galaxy-s10",
+    "created": "2019-05-02T21:16:39.242Z",
+    "updated": "2019-05-02T21:16:39.242Z",
+    "description": "Smartphone Samsung Galaxy S10",
+    "departament": 1,
+    "category": 2,
+    "price": 4000,
+    "is_active": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "slug": "smartphone-motorola-moto-g",
+    "created": "2019-05-03T13:00:42.225Z",
+    "updated": "2019-05-03T13:00:42.225Z",
+    "description": "Smartphone Motorola Moto G",
+    "departament": 1,
+    "category": 2,
+    "price": 3000,
+    "is_active": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "slug": "iphone-plus",
+    "created": "2019-05-03T13:01:08.536Z",
+    "updated": "2019-05-03T13:01:08.536Z",
+    "description": "IPhone plus",
+    "departament": 1,
+    "category": 1,
+    "price": 4500,
+    "is_active": false
+  }
+}
+]
